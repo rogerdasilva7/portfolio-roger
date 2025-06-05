@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+
+.logo-header {
+    max-width: 80px;
+    width: 100%;
+}
+
+.main-header {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84px;
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #f3f4f6;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.link-header {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    transition: 0.5s ease-in-out;
+    font-size: 18px;
+}
+.nome-destaque{
+    color: #6200ff;
+}
+.nome-destaque-meio{
+    color: #000;
+}
+.nome{
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    color: #6200ff;
+    font-weight: 900;
+    background-color: #6200ff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.information-title {
+    max-width: 1140px;
+    width: 40%;
+    margin-left: 23%; /*ou 7% pra deixar mais ao lado*/
+    margin-top: 600px;
+}
+.paragrafo-title{
+    font-size: 40px;
+}
+.span-ola, .span-web{
+    color: #6200ff;
+    font-weight: 500;
+}
+
+
+.information-title h1 {
+    color: #000;
+    font-size: 75px;
+    font-weight: 100;
+    line-height: 75px;
+    letter-spacing: 5px;
+}
+
+.information-title a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 15px 40px;
+    font-size: 25px;
+    margin-right: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-color: #6200ffe1;
+    transition: all 0.5s ease-in-out;
+}
+.information-title a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.home-container {
+    width: 100vw;
+    min-height: 70vh;
+    background-color: #fff;
+}
+.flex-div-home {
+    margin-top: 80px;
+}
+
+.paragraph-home {
+    color: #fff;
+}
+
+.information-container {
+    background-color: #fff;
+    width: 100vw;
+    min-height: 100vh;
+}
+.sobre{
+    background-color: #f3f4f6;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-sobre{
+    max-width: 85rem;
+    width: 100%;
+    background-color: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid #6200ff;
+}
+.sobre-titulo{
+    color: #000;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.sobre-paragrafo{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.43rem;
+}
+.colored{
+    font-size: 35px;                                
+}
+.paragrafo-tecnologias{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+.span-tecnologias{
+    padding-right: 20px;
+}
+
+.projetos{
+    padding: 8rem 2rem;
+}
+.projetos-titulo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.projetos-card{
+    background: #f3f4f6;
+    border: 1px solid #6200ff;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+.projetos-card:hover{
+    box-shadow: 0 10px 15px #6200ffa4;
+    transform: translateY(-10px) scale(1.03);
+}
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.projetos-imagem{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+.info-projetos{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.paragrafo-projetos{
+    line-height: 1.43rem;
+
+
+}
+.caixa-textos-projeto{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.tecnologias-utilizadas{
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.link-card{
+    text-decoration: none;
+    background-color: #6200ff;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #000;
+    transition: all 0.5s ease-in-out;
+    margin-top: 20px;
+}
+.link-card:hover{
+    background-color: #fff;
+    color: #000;
+}
+.caixa-link {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .contato{
+    padding: 6rem 2rem;
+  }
+
+  .contatos-titulo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+
+  }
+  .formulario-contato{
+    max-width: 85rem;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #6200ff;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    background-color: #f3f4f6;
+  }
+  .campo-form{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+  }
+  .campo-form:focus{
+    border: 1px solid #6200ff;
+    box-shadow: 0 2px 5px #6200ffa4;
+  }
+  .grupo-form{
+    margin-bottom: 1.5rem;
+  }
+
+  .botao-form{
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #6200ff;
+    color: #fff;
+    height: 3.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+  }
+
+  .botao-form:hover{
+    background-color: #fff;
+    color: #000;
+  }
+
+  .footer{
+    width: 100vw;
+    height: 6rem;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-footer{
+    text-decoration: none;
+    font-weight: 800;
+    color: #6200ff;
+    margin-left: 5px;
+  }
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .menu-header {
+        overflow: hidden;
+    }
+
+    .information-title {
+        width: 90%;
+        margin: 100px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .information-title h1 {
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing: 2px;
+    }
+
+    .information-title a {
+        margin: 0;
+        width: 100%;
+        max-width: 300px;
+    }
+}
