@@ -9,7 +9,7 @@ function enviarMensagem(event){
     const mensagemFormatada = encodeURIComponent(texto);
 
     const url = `https://wa.me/${telefone}?text=${mensagemFormatada}`;
-    console.log(url)
+    console.log(url);
     window.open(url, "_blank");
     nome.value = "";
     mensagem.value = "";
