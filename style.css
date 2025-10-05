@@ -12,9 +12,10 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
 body{
     overflow-x: hidden;
-    background-color: #020817
+    background-color: #050505ff;
 }
 
 .logo-header {
@@ -34,8 +35,9 @@ body{
     position: fixed;
     top: 0;
     z-index: 10;
-    background-color: #020817;
+    background-color: #010101;
     border-bottom: 1px solid #b9b3b281;
+    border-top: 1px solid #b9b3b281;
 }
 
 .menu-header {
@@ -53,10 +55,10 @@ body{
     font-size: 18px;
 }
 .nome-destaque{
-    color: #6200ff;
+    color: #009e00ff;
 }
 .nome-destaque-meio{
-    color: #6200ffb0;
+    color: #009e0096;
 }
 .nome{
     font-size: 35px;
@@ -65,9 +67,9 @@ body{
 }
 
 .link-header:hover {
-    color: #6200ff;
+    color: #009e00ff;
     font-weight: 900;
-    background-color: #6200ff;
+    background-color: #009e00ff;
     color: #ffffffc4;
     padding: 5px 10px;
     border-radius: 5px;
@@ -84,7 +86,7 @@ body{
     color: #ffffffc4
 }
 .span-ola, .span-web{
-    color: #6200ff;
+    color: #009e00ff;
     font-weight: 500;
 }
 
@@ -106,7 +108,7 @@ body{
     margin-right: 20px;
     display: inline-block;
     transition: all 0.3s ease;
-    background-color: #6200ffe1;
+    background-color: #009e00ff;
     transition: all 0.5s ease-in-out;
 }
 .information-title a:hover{
@@ -117,7 +119,7 @@ body{
 .home-container {
     width: 100vw;
     min-height: 70vh;
-    background-color: #020817;
+    background-color: #050505ff;
 }
 .flex-div-home {
     margin-top: 80px;
@@ -133,7 +135,7 @@ body{
     min-height: 100vh;
 }
 .sobre{
-    background-color: #00000046;
+    background-color: rgba(0, 0, 0, 0.79);
     padding: 5rem;
     display: flex;
     justify-content: center;
@@ -145,7 +147,7 @@ body{
     padding: 2.5rem 2rem;
     border-radius: 5px;
     border: 1px solid #b9b3b281;
-    background-color: #020817;
+    background-color: #010101;
 }
 .sobre-titulo{
     color: #ffffffc4;
@@ -194,7 +196,7 @@ body{
 }
 
 .projetos-card {
-  background: #020817;
+  background: #010101;
   border: 1px solid #b9b3b281;
   border-radius: 5px;
   backdrop-filter: blur(5px);
@@ -223,7 +225,7 @@ body{
     flex: 1;
 }
 .caixa-textos-projeto strong {
-    color: #6200ff;
+    color: #009e0096;
     font-weight: bold;
 }
 .tecnologias-utilizadas{
@@ -233,7 +235,7 @@ body{
 }
 .link-card{
     text-decoration: none;
-    background-color: #6200ff;
+    background-color: #009e0096;
     padding: 5px 10px;
     font-size: 18px;
     color: #ffffffc4;
@@ -271,7 +273,7 @@ body{
     border-radius: 5px;
     backdrop-filter: blur(5px);
     padding: 2rem;
-    background-color: #020817;
+    background-color: #010301;
   }
   .campo-form{
     width: 100%;
@@ -280,7 +282,7 @@ body{
     outline: none;
     border: 1px solid #b9b3b281;
     font-size: 18px;
-    background-color: #020817;
+    background-color: #010301;
     color: #ffffffc4
   }
   .campo-form:focus{
@@ -294,7 +296,7 @@ body{
   .botao-form{
     width: 100%;
     border: 1px solid #000;
-    background-color: #6200ff;
+    background-color: #009e0096;
     color: #ffffffc4;
     height: 3.7rem;
     border-radius: 5px;
@@ -312,8 +314,9 @@ body{
   .footer{
     width: 100vw;
     height: 6rem;
-    background-color: #020817;
+    background-color: #010101;
     border-top: 1px solid #b9b3b281;
+    border-bottom: 1px solid #b9b3b281;
     display: flex;
     color: #ffffffc4;
     justify-content: center;
@@ -323,7 +326,7 @@ body{
   .link-footer{
     text-decoration: none;
     font-weight: 800;
-    color: #6200ff;
+    color: #009e0096;
     margin-left: 5px;
   }
 
