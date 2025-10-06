@@ -216,7 +216,8 @@ body{
 }
 .paragrafo-projetos{
     line-height: 1.43rem;
-    color: #ffffffc4
+    color: #ffffffc4;
+    text-align: justify;
 }
 .caixa-textos-projeto{
     padding: 1.5rem;
